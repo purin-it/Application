@@ -9,7 +9,7 @@ public class MyAppController {
     
     @GetMapping("/")
     public String index(Model model) {
-    	model.addAttribute("message", "Hello Azure Spring.");
+    	model.addAttribute("message", "Hello Azure Spring. Updated!!");
         return "index";
     }
     
